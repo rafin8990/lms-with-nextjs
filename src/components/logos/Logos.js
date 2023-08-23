@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
+
 import Marquee from "react-fast-marquee";
 const Logos = () => {
   return (
@@ -14,14 +14,14 @@ const Logos = () => {
         </div>
         <div className="w-[240px] h-[240px] border-[5.9px] border-[#094067] flex justify-center items-center rounded-3xl mx-[28px]">
           <img
-            className="w-2/3"
+            className="w-2/3 mt-3"
             src="https://i.ibb.co/QCZ1Vnx/vggggggggggggg.jpg"
             alt=""
           />
         </div>
         <div className="w-[240px] h-[240px] border-[5.9px] border-[#094067] flex justify-center items-center rounded-3xl mx-[28px]">
           <img
-            className="w-2/3"
+            className="w-2/3 mt-10"
             src="https://i.ibb.co/Stj4pMS/Niksun-white-text-logo.webp"
             alt=""
           />
