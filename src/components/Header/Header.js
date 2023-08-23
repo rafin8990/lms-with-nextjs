@@ -106,7 +106,7 @@ const Header = () => {
       <div className="flex justify-center mt-[36px]">
         <button className="bg-[#EF4565] rounded-lg border-[#EF4565] border-b-8  ">
           <div className="flex items-center bg-[#3DA9FC] px-28 py-5 border-4 border-[#094067] rounded-lg">
-            <h1 className="text-white text-2xl font-bold hover:ml-4 duration-500">
+            <h1 className="text-white text-2xl font-bold hover:ml-4 duration-500 font1">
               REGISTER NOW
             </h1>
             <p className="">
