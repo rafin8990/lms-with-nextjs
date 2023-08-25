@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div className="mt-[192px]">
+    <div className="mt-5 md:mt-[192px]">
       <div className="flex justify-center items-center relative">
         <div>
-          <h1 className="text-7xl  text-[#094067] text-center">
-            We teach <span className="font-bold text-[#EF4565]">Content</span>
+          <h1 className="text-4xl md:text-7xl  text-[#094067] text-center">
+            We teach <span className="font-bold text-[#094067]">Content</span>
           </h1>
-          <h1 className="text-[#094067] font-semibold text-7xl text-center">
+          <h1 className="text-[#094067] font-semibold text-4xl md:text-7xl text-center">
             That <span className="text-[#EF4565] font-bold">Sells</span>
           </h1>
         </div>
-        <div className=" absolute left-[63%] top-[40px]">
+        <div className=" absolute  md:left-[63%] top-[40px] hidden md:block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="193"
@@ -28,14 +28,14 @@ const Header = () => {
         </div>
       </div>
       <div className="flex items-center justify-center mt-10">
-        <p className="w-[624px] text-xl text-[#5F6C7B] relative">
+        <p className="w-[624px] ml-10 md:ml-0 text-xl text-[#5F6C7B] relative">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
           dignissimos. Quidem voluptatum nulla esse, excepturi quos totam!
         </p>
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
-          className=" absolute lg:right-[207px]  top-[]"
+          className=" absolute right-20 lg:right-[207px] hidden md:block  top-[]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +104,8 @@ const Header = () => {
         </motion.div>
       </div>
       <div className="flex justify-center mt-[36px]">
-        <button className="bg-[#EF4565] rounded-lg border-[#EF4565] border-b-8  ">
-          <div className="flex items-center bg-[#3DA9FC] px-28 py-5 border-4 border-[#094067] rounded-lg">
+        <button className="bg-[#EF4565] rounded-lg border-[rgb(239,69,101)] border-b-8  ">
+          <div className="flex items-center bg-[#3DA9FC] px-16 py-3 md:px-28 md:py-5 border-4 border-[#094067] rounded-lg">
             <h1 className="text-white text-2xl font-bold hover:ml-4 duration-500 font1">
               REGISTER NOW
             </h1>

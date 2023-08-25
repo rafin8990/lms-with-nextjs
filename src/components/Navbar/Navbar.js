@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 
 const Navbar = () => {
@@ -9,7 +10,11 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="javascript:void(0)">
-                <h2 className="text-2xl font-bold ">Swachh Akshar</h2>
+                <img
+                  className="w-28"
+                  src="https://s3-alpha-sig.figma.com/img/8b73/5cbb/14c0a24781efcac2dae9fe833f2f09bf?Expires=1693785600&Signature=eWZg2Wh2Sp4Gov9226PLY9cFmeM0hTK9O-jXvE3N3LammyZ~ZmqTJRryvE8b8VLf26sSWz7~tus3ttUwK78kLnZLo8QVQ0JNv~qdG-C88oHJuy-X0h0NlO0TZmE0o6op57MfymxfByyNnA8IR4dhtqQ645qiiDjGlgQl1OM44wjOcmNFfJfuXnnc~FADwChQ7KQp44kQgnIhFaRZyX~~KyuxsqeQurwMb0ZrXk9juKUN5IhQ7FqQcxWgZihWZC856irBycOCNEseJMXryodlmsaFp5pl0GXKUWGN~dj5RMv~S8VNrK7dBxhSyTELXttebNvvVmmueW5oS2h6FJow~w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                  alt=""
+                />
               </a>
               <div className="md:hidden">
                 <button
