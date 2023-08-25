@@ -15,7 +15,7 @@ const Home = () => {
       <Counts></Counts>
       <Logos></Logos>
       <Courses></Courses>
-      {/* <Service></Service> */}
+      <Service></Service>
       {/* <Learning></Learning>
       <Vission></Vission> */}
     </div>
