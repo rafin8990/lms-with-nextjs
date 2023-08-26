@@ -16,8 +16,8 @@ const Home = () => {
       <Logos></Logos>
       <Courses></Courses>
       <Service></Service>
-      {/* <Learning></Learning>
-      <Vission></Vission> */}
+      <Learning></Learning>
+      <Vission></Vission>
     </div>
   );
 };

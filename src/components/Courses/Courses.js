@@ -212,7 +212,7 @@ const Courses = () => {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
-          className=" absolute right-20 bottom-[510px] lg:right-[207px] hidden md:block  top-[]"
+          className=" absolute right-20 bottom-[450px] lg:right-[207px] hidden md:block  top-[]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
