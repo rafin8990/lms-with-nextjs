@@ -20,10 +20,10 @@ const Vission = () => {
         </p>
       </div>
       <div className="lg:w-[1440px] mx-auto mt-[80px]">
-        <h1 className="text-[50px] lg:text-[64px] text-[#094067] mx-5">
+        <h1 className="text-[50px] lg:text-[64px] text-[#094067]  ml-5">
           What do we do
         </h1>
-        <h1 className="text-[40px] lg:text-[64px] text-[#3DA9FC] font-bold mx-5">
+        <h1 className="text-[40px] lg:text-[64px] text-[#3DA9FC] font-bold ml-5">
           And Why do we do?
         </h1>
       </div>

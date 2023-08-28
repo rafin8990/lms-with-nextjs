@@ -1,0 +1,12 @@
+/* styles/fonts.css */
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../public/Fonts/Nohemi-Regular.woff2") format("woff2"),
+    url("../../public/Fonts/Nohemi-Regular.woff") format("woff");
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+body {
+  font-family: "CustomFont", sans-serif;
+}

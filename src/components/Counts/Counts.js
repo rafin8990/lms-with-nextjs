@@ -3,7 +3,7 @@ const Counts = () => {
     <div className=" ml-10 md:ml-24 ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:w-[1440px] lg:mx-auto mt-[104px]">
         <div className="flex items-center">
-          <div className="bg-[#ED5A5A] rounded-lg w-[113px] h-[113px] flex justify-center items-center border-2 border-[#094067]">
+          <div className="bg-[#ED5A5A] rounded-[20px] w-[113px] h-[113px] flex justify-center items-center border-2 border-[#094067]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="60"
@@ -31,7 +31,7 @@ const Counts = () => {
           </div>
         </div>
         <div className="flex items-center">
-          <div className="bg-[#ED5A5A] rounded-lg w-[113px] h-[113px] flex justify-center items-center border-2 border-[#094067]">
+          <div className="bg-[#ED5A5A] rounded-[20px] w-[113px] h-[113px] flex justify-center items-center border-2 border-[#094067]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="60"
@@ -51,7 +51,7 @@ const Counts = () => {
           </div>
         </div>
         <div className="flex items-center">
-          <div className="bg-[#ED5A5A] rounded-lg w-[113px] h-[113px] flex justify-center items-center border-2 border-[#094067]">
+          <div className="bg-[#ED5A5A] rounded-[20px] w-[113px] h-[113px] flex justify-center items-center border-2 border-[#094067]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="60"

@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex justify-center items-center relative">
         <div>
           <h1 className="text-4xl md:text-7xl  text-[#094067] text-center">
-            We teach <span className="font-bold text-[#094067]">Content</span>
+            We teach <span className="font-bold text-[#EF4565]">Content</span>
           </h1>
           <h1 className="text-[#094067] font-semibold text-4xl md:text-7xl text-center">
             That <span className="text-[#EF4565] font-bold">Sells</span>
