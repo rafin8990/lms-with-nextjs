@@ -40,7 +40,3 @@ const Vission = () => {
 };
 
 export default Vission;
-
-// something added
-// something added
-// something added
