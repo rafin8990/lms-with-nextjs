@@ -4,7 +4,7 @@ const Queries = () => {
       <div
         className=" bg-no-repeat bg-cover h-[790px] pt-5 lg:pt-[200px] px-10 lg:px-48"
         style={{
-          backgroundImage: "url('https://i.ibb.co/Vt804N1/Shape.jpg')",
+          backgroundImage: "url('https://i.ibb.co/4jjC0pq/Untitled-1.jpg')",
           backgroundSize: "100% 100%",
         }}
       >
@@ -88,3 +88,4 @@ const Queries = () => {
 };
 
 export default Queries;
+//query comments added
