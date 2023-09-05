@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const Courses = () => {
   return (
-    <div className=" relative ">
+    <div className=" relative lg:ml-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  mt-[55px]">
         <div className="w-[360px] md:w-[400px] lg:w-[450px] xl:w-[476px] lg:h-[385px] border-[4px] border-[#094067] border-dashed rounded-[25px] mx-auto md:ml-[32px] mt-10 bg-[#F8F5F2]">
           <div className="flex items-center ml-[38px]">
